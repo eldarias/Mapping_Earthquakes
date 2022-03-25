@@ -3,7 +3,11 @@ console.log("working");
 
 // 13.5.2 - Map GeoJSON Point Type
 // Create the map object with center at the San Francisco airport.
-let map = L.map('mapid').setView([37.6189, -122.375], 12);
+// let map = L.map('mapid').setView([37.6189, -122.375], 12);
+
+//13.5.3
+// Create the map object with center and zoom level.
+let map = L.map('mapid').setView([30, 30], 2);
 
 // Add GeoJSON data.
 let sanFranAirport =
@@ -55,6 +59,9 @@ attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap
     maxZoom: 18,
     accessToken: API_KEY
 });
+
+// Accessing the airport GeoJSON URL
+let airportData = "https://raw.githubusercontent.com/eldarias/Mapping_Earthquakes/main/majorAirports.json";
 
 // Then we add our 'graymap' tile layer to the map.
 streets.addTo(map);
