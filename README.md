@@ -12,7 +12,7 @@ Deliverable 3: Add an Additional Map
 ## Results
 Below is a screenshot of the final map view, which shows the added map and overlays.
 
-- [<image src="./Results/Final_Map_Screenshot.png" width="600" height="800">](https://github.com/eldarias/Mapping_Earthquakes/blob/main/Earthquake_Challenge/Results/Final_Map_Screenshot.png)<b></b>
+- [<image src="./Earthquake_Challenge/Results/Final_Map_Screenshot.png" width="600" height="600">](https://github.com/eldarias/Mapping_Earthquakes/blob/main/Earthquake_Challenge/Results/Final_Map_Screenshot.png)<b></b>
 
 ## Summary
 The challenge was successfully completed by using JavaScript, GeoJSON, Leaflet, Mapbox, external data and available features.
